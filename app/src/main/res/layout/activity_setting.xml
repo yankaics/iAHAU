@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
 
-    tools:context="net.peacesky.iahau.activity.SettingActivity">
+    tools:context="cn.peacesky.iahau.activity.SettingActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/view"

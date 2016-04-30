@@ -78,7 +78,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:text="刘宏达\t韩晨"
+            android:text="刘宏达\t韩晨\t李坤\t黄超\t徐祥臣"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/holo_green_dark" />
 

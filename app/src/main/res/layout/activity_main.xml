@@ -28,7 +28,7 @@
     </LinearLayout>
 
 
-    <net.peacesky.iahau.fragment.ScrimInsetsFrameLayout
+    <cn.peacesky.iahau.fragment.ScrimInsetsFrameLayout
         android:layout_width="250dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
@@ -42,7 +42,7 @@
             android:layout_height="match_parent"
             android:background="#23A2E9"
             android:clickable="true" />
-    </net.peacesky.iahau.fragment.ScrimInsetsFrameLayout>
+    </cn.peacesky.iahau.fragment.ScrimInsetsFrameLayout>
 
 
 </android.support.v4.widget.DrawerLayout>

@@ -10,7 +10,7 @@
         android:layout_height="wrap_content">
 
 
-        <net.peacesky.iahau.view.PickerView
+        <cn.peacesky.iahau.view.PickerView
             android:id="@+id/year_pv"
             android:layout_width="180dp"
             android:layout_height="150dp" />
@@ -27,7 +27,7 @@
             android:textSize="27sp"
             android:textStyle="bold" />
 
-        <net.peacesky.iahau.view.PickerView
+        <cn.peacesky.iahau.view.PickerView
             android:id="@+id/semester_pv"
             android:layout_width="80dp"
             android:layout_height="150dp"
