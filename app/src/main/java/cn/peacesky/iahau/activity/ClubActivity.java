@@ -1,4 +1,4 @@
-package net.peacesky.iahau.activity;
+package cn.peacesky.iahau.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,12 +8,12 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import net.peacesky.iahau.R;
-import net.peacesky.iahau.adapter.ClubAdapter;
-import net.peacesky.iahau.model.Club;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.peacesky.iahau.R;
+import cn.peacesky.iahau.adapter.ClubAdapter;
+import cn.peacesky.iahau.model.Club;
 
 /**
  * Created by hc on 16-4-27.

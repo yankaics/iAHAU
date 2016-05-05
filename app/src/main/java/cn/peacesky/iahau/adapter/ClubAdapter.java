@@ -1,4 +1,4 @@
-package net.peacesky.iahau.adapter;
+package cn.peacesky.iahau.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import net.peacesky.iahau.R;
-import net.peacesky.iahau.model.Club;
-
 import java.util.List;
+
+import cn.peacesky.iahau.R;
+import cn.peacesky.iahau.model.Club;
 
 /**
  * Created by hc on 16-4-28.

@@ -1,4 +1,4 @@
-package net.peacesky.iahau.model;
+package cn.peacesky.iahau.model;
 
 /**
  * Created by hc on 16-4-28.
