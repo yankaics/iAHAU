@@ -39,6 +39,10 @@
             android:label="@string/title_activity_about"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name="net.peacesky.iahau.activity.ClubActivity"
+            android:label="@string/title_activity_club"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name="net.peacesky.iahau.activity.SplashActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait">
