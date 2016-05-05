@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
                 new DrawerMenu().setIconRes(R.drawable.ic_group).setText(getString(R.string.menu_kcb)),
                 new DrawerMenu().setIconRes(R.drawable.ic_map).setText(getString(R.string.menu_cjb)),
                 new DrawerMenu().setIconRes(R.drawable.ic_person).setText(getString(R.string.menu_djb)),
-                new DrawerItem(DrawerItem.Type.DIVIDER),
+                new DrawerMenu().setIconRes(R.drawable.ic_search).setText(getString(R.string.menu_club)),
                 new DrawerMenu().setIconRes(R.drawable.ic_settings).setText(getString(R.string.menu_set)),
                 new DrawerItem(DrawerItem.Type.DIVIDER),
                 new DrawerMenu().setIconRes(R.drawable.ic_person).setText(getString(R.string.menu_about)));
@@ -247,7 +247,10 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(mainToReGrade);
                         break;
                     case 4:
+                        Intent mainToClub = new Intent(MainActivity.this, ClubActivity.class);
+                        startActivity(mainToClub);
                         break;
+
                     case 5:
                         Intent mainToSet = new Intent(MainActivity.this, SettingActivity.class);
                         startActivity(mainToSet);

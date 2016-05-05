@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.peacesky.iahau">
+    package="net.peacesky.iahau">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -8,38 +8,42 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name="cn.peacesky.iahau.application.MyApplication"
+        android:name="net.peacesky.iahau.application.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
         <activity
-            android:name="cn.peacesky.iahau.activity.LoginActivity"
+            android:name="net.peacesky.iahau.activity.LoginActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.MainActivity"
+            android:name="net.peacesky.iahau.activity.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.CourseActivity"
+            android:name="net.peacesky.iahau.activity.CourseActivity"
             android:label="@string/title_activity_course"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.GradeActivity"
+            android:name="net.peacesky.iahau.activity.GradeActivity"
             android:label="@string/title_activity_grade"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.ReGradeActivity"
+            android:name="net.peacesky.iahau.activity.ReGradeActivity"
             android:label="@string/title_activity_re_grade"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.AboutActivity"
+            android:name="net.peacesky.iahau.activity.AboutActivity"
             android:label="@string/title_activity_about"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.SplashActivity"
+            android:name="net.peacesky.iahau.activity.ClubActivity"
+            android:label="@string/title_activity_club"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="net.peacesky.iahau.activity.SplashActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -49,7 +53,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="cn.peacesky.iahau.activity.SettingActivity"
+            android:name="net.peacesky.iahau.activity.SettingActivity"
             android:label="@string/title_activity_setting"></activity>
     </application>
 

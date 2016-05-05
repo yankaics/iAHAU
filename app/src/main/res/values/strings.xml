@@ -16,6 +16,7 @@
     <string name="menu_kcb">查询课表</string>
     <string name="menu_cjb">查考试成绩</string>
     <string name="menu_djb">查等级考试</string>
+    <string name="menu_club">社团</string>
     <string name="menu_set">设置</string>
     <string name="menu_about">关于</string>
 
@@ -34,5 +35,6 @@
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_club">ClubActivity</string>
 
 </resources>
